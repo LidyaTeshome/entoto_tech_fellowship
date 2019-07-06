@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="./login2.js"></script>
+  <script type="text/javascript" src="./jquery-3.4.1.js"></script>
+<style> 
+input[type=text] {
+    width: 50%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 10px solid lightskyblue;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+button{
+    background-color: bisque;
+    justify-content: center;
+    color: rgb(9, 15, 26);
+    cursor: pointer;
+
+}
+.div{
+   
+   padding: 40px;
+   color: rgb(8, 8, 7);
+   width: 600px;
+   height: 250px;
+   justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+   align-content: space-between;
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 80px;
+   margin: auto;
+   border-radius: 25px;
+   border: 2px solid teal;
+   padding: 20px;
+
+
+
+}
+.h4{
+    text-align: center;
+    font-size: 50px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+</style>
+</head>
+<body>
+  
+ <h4 class="h4">login form</h4>
+<div class="div">
+
+ <label for="fname">First Name</label><br>
+  <input type="text" placeholder="first name" id="fname" name="fname">
+  <div>
+  <label for="lname">Email</label><br>
+  <input type="text" placeholder="email"id="lname" name="lname">
+  </div>
+   <label for="pname">phone number</label><br>
+  <input type="text" placeholder="phone number" id="pname" name="pname">
+<div>
+  <!-- <input type="submit" value="Submit" onclick="login()"> -->
+  <button class="btn purple-gradient">submit</button>
+  </div>
+</label>
+</div>
+  </button>
+
+
+</body>

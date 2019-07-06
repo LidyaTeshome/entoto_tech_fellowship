@@ -1,0 +1,43 @@
+Table 1
+SELECT `customer ID`, `Customer name`, `Contact name`, `Country` FROM `files` WHERE 1
+***it uses for select what we want
+Table 2
+SELECT DISTINCT City from files;
+***I use for list the diffrent file
+Table 3
+SELECT * FROM files
+WHERE Country='Mexico';
+***It use for list the some country
+Table 4
+SELECT * from files
+WHERE Country='Germen'
+AND City='Beriln';
+***it works if both condition are true
+Table 5
+SELECT * FROM files
+WHERE City='Beriln'
+OR City='Gana';
+***it works if either the first or the second condition are true
+Table 6
+SELECT * FROM files
+ORDER BY Country; 
+***it use for ordered by  Ascending
+SELECT * FROM files
+ORDER BY Country DESC; 
+***it use for ordered by descending
+Table 7
+UPDATE files
+SET ContactName='Alfred Schmidt', City='Hamburg'
+WHERE CustomerName='Alfreds Futterkiste'; 
+***its use add a new row 
+Table 8
+DELETE FROM files
+WHERE CustomerName='Alfreds Futterkiste' AND City='Berlin'; 
+***to delete the row
+Table 9
+SELECT * FROM files
+WHERE City LIKE 's%';
+*** to select if 's' is in the file
+Table 10
+SELECT * FROM files WHERE City LIKE 'ber%
+***to select all customers with a city STARTING with what we command('')

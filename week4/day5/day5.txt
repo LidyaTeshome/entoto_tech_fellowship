@@ -1,0 +1,21 @@
+          ####function###
+AVERAGE
+SELECT AVG(price) AS priceAverage from products;
+it gives us the return of the average value of a numeric 
+COUNT
+SELECT count(OrderDate) FROM orders
+:-return the number of row that the same characters;
+FRIST
+SELECT customername from files order by CustomerID ASC limit 1;
+:-to list the first column
+LAST
+SELECT customername from files order by CustomerID DESC limit 1;
+:-to list the last column
+MAXIMUM
+SELECT MAX(price) AS Highestprice FROM products;
+to list the highestprice in the column
+MINIMUM
+SELECT MIN(price) FROM products;
+to list out the smallest price from the column
+
+
